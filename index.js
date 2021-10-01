@@ -1,5 +1,5 @@
 client.on('message' ,async message => {
- if (message.content.startsWith(prefix + "setC")) {
+ if (message.content.startsWith(prefix + "profile")) {
      let filter = m => m.author.id === message.author.id;
   let set = new Discord.RichEmbed()
       .setColor("RANDOM")
